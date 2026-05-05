@@ -2,8 +2,6 @@
 
 SAM-based **parquet plank grid** pipeline: normalize lighting → Meta SAM 3 masks → fit a 2D lattice and write debug images / JSON.
 
-**Layout:** library under `**src/sam/`**, `**src/fitting/`**, `**src/parquet/**`, plus `**src/workflow_types.py**`. Scenario + CLI: `**src/parquet_sam_grid.py**`.
-
 ## Setup
 
 ```bash
@@ -33,16 +31,7 @@ Optional: `**HF_HOME**` / `**HF_HUB_CACHE**` change where cached snapshots live;
 ## Run
 
 ```bash
-python3 parquet-sam-grid --image samples/herringbone.png --text "wooden parquet rectangular planks"
+python3 src/parquet-sam-grid.py --image samples/herringbone.png --text "wooden parquet rectangular planks"
 ```
 
 Outputs go to `**outputs/<image_stem>/**`. Weights: `**SAM_WEIGHTS**` in `parquet_sam_grid.py` (default `sam3.pt` + hub resolution).
-
-(`sam3-segment-sample` is the same entry point.)
-
-## Optional: parquet seam overlay
-
-```bash
-python3 -m parquet.seam_highlight --help
-```
-
