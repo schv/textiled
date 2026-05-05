@@ -1,0 +1,139 @@
+{
+  "mask_count": 10,
+  "kept_mask_count": 9,
+  "rejected_mask_count": 1,
+  "kept_masks": [
+    {
+      "index": 1,
+      "area_px": 119537,
+      "area_frac": 0.1139993667602539
+    },
+    {
+      "index": 2,
+      "area_px": 132760,
+      "area_frac": 0.12660980224609375
+    },
+    {
+      "index": 3,
+      "area_px": 197847,
+      "area_frac": 0.18868160247802734
+    },
+    {
+      "index": 4,
+      "area_px": 85760,
+      "area_frac": 0.081787109375
+    },
+    {
+      "index": 5,
+      "area_px": 219972,
+      "area_frac": 0.20978164672851562
+    },
+    {
+      "index": 6,
+      "area_px": 82845,
+      "area_frac": 0.07900714874267578
+    },
+    {
+      "index": 7,
+      "area_px": 103251,
+      "area_frac": 0.09846782684326172
+    },
+    {
+      "index": 8,
+      "area_px": 23205,
+      "area_frac": 0.02213001251220703
+    },
+    {
+      "index": 9,
+      "area_px": 31587,
+      "area_frac": 0.03012371063232422
+    }
+  ],
+  "rejected_masks": [
+    {
+      "index": 0,
+      "area_px": 1023017,
+      "area_frac": 0.9756250381469727,
+      "reason": "too_large"
+    }
+  ],
+  "boundary_line_count": 81,
+  "angle_peaks_deg": [
+    90.20786920942298,
+    0.180000648431255
+  ],
+  "lattice": {
+    "u_spacing_px": 224.49862833369673,
+    "v_spacing_px": 191.5996749324915,
+    "u_phase_px": 101.9456454807879,
+    "v_phase_px": 4.0379770811921425
+  },
+  "sam_border_grid_debug": {
+    "segment_count": 81,
+    "angle_support": 13924383.712106122,
+    "angle_clusters_deg": [
+      90.20786920942298,
+      0.180000648431255
+    ],
+    "offset_cluster_tolerance_px": 14.336,
+    "min_cluster_support": 69.12,
+    "min_spacing_px": 46.08,
+    "u_line_count": 6,
+    "v_line_count": 6,
+    "seam_segment_count": 82,
+    "u_lines_px": [
+      -1020.5474961876957,
+      -904.6799663425346,
+      -680.1813380088379,
+      -448.11470502577623,
+      -219.91952492786055,
+      -0.0
+    ],
+    "v_lines_px": [
+      4.0379770811921425,
+      275.999967123855,
+      467.5996420563465,
+      627.1708861637683,
+      916.6401053262667,
+      1017.197521344324
+    ]
+  },
+  "image_size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "grid_model_path": "dark_grid_model.json",
+  "plank_count": 9,
+  "grid_fit_strategy": "sam_border_grid",
+  "grid_fit_status": "ok",
+  "grid_fit_debug": {
+    "segment_count": 81,
+    "angle_support": 13924383.712106122,
+    "angle_clusters_deg": [
+      90.20786920942298,
+      0.180000648431255
+    ],
+    "offset_cluster_tolerance_px": 14.336,
+    "min_cluster_support": 69.12,
+    "min_spacing_px": 46.08,
+    "u_line_count": 6,
+    "v_line_count": 6,
+    "seam_segment_count": 82,
+    "u_lines_px": [
+      -1020.5474961876957,
+      -904.6799663425346,
+      -680.1813380088379,
+      -448.11470502577623,
+      -219.91952492786055,
+      -0.0
+    ],
+    "v_lines_px": [
+      4.0379770811921425,
+      275.999967123855,
+      467.5996420563465,
+      627.1708861637683,
+      916.6401053262667,
+      1017.197521344324
+    ]
+  }
+}

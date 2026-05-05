@@ -1,0 +1,170 @@
+{
+  "mask_count": 17,
+  "kept_mask_count": 16,
+  "rejected_mask_count": 1,
+  "kept_masks": [
+    {
+      "index": 0,
+      "area_px": 292428,
+      "area_frac": 0.073107
+    },
+    {
+      "index": 1,
+      "area_px": 294984,
+      "area_frac": 0.073746
+    },
+    {
+      "index": 2,
+      "area_px": 295189,
+      "area_frac": 0.07379725
+    },
+    {
+      "index": 4,
+      "area_px": 167256,
+      "area_frac": 0.041814
+    },
+    {
+      "index": 5,
+      "area_px": 166421,
+      "area_frac": 0.04160525
+    },
+    {
+      "index": 6,
+      "area_px": 165201,
+      "area_frac": 0.04130025
+    },
+    {
+      "index": 7,
+      "area_px": 92920,
+      "area_frac": 0.02323
+    },
+    {
+      "index": 8,
+      "area_px": 164609,
+      "area_frac": 0.04115225
+    },
+    {
+      "index": 9,
+      "area_px": 302002,
+      "area_frac": 0.0755005
+    },
+    {
+      "index": 10,
+      "area_px": 293635,
+      "area_frac": 0.07340875
+    },
+    {
+      "index": 11,
+      "area_px": 295729,
+      "area_frac": 0.07393225
+    },
+    {
+      "index": 12,
+      "area_px": 299559,
+      "area_frac": 0.07488975
+    },
+    {
+      "index": 13,
+      "area_px": 293745,
+      "area_frac": 0.07343625
+    },
+    {
+      "index": 14,
+      "area_px": 294478,
+      "area_frac": 0.0736195
+    },
+    {
+      "index": 15,
+      "area_px": 167037,
+      "area_frac": 0.04175925
+    },
+    {
+      "index": 16,
+      "area_px": 169405,
+      "area_frac": 0.04235125
+    }
+  ],
+  "rejected_masks": [
+    {
+      "index": 3,
+      "area_px": 3961791,
+      "area_frac": 0.99044775,
+      "reason": "too_large"
+    }
+  ],
+  "boundary_line_count": 88,
+  "angle_peaks_deg": [
+    179.9950199235664,
+    90.02590839561603
+  ],
+  "lattice": {
+    "u_spacing_px": 558.7615966341104,
+    "v_spacing_px": 553.7208112742053,
+    "u_phase_px": 244.4491574067863,
+    "v_phase_px": 229.1865491543913
+  },
+  "sam_border_grid_debug": {
+    "segment_count": 88,
+    "angle_support": 139169552.48822683,
+    "angle_clusters_deg": [
+      179.9950199235664,
+      90.02590839561603
+    ],
+    "offset_cluster_tolerance_px": 28.0,
+    "min_cluster_support": 135.0,
+    "min_spacing_px": 90.0,
+    "u_line_count": 5,
+    "v_line_count": 5,
+    "seam_segment_count": 91,
+    "u_lines_px": [
+      -1990.5972291296555,
+      -1681.5363380195151,
+      -1125.0391540101673,
+      -561.0260092588729,
+      -0.0
+    ],
+    "v_lines_px": [
+      -1985.6966959424299,
+      -1431.4031795206877,
+      -871.1443539819222,
+      -317.9962478552538,
+      -10.115532702991205
+    ]
+  },
+  "image_size": {
+    "width": 2000,
+    "height": 2000
+  },
+  "grid_model_path": "simple_grid_model.json",
+  "plank_count": 16,
+  "grid_fit_strategy": "sam_border_grid",
+  "grid_fit_status": "ok",
+  "grid_fit_debug": {
+    "segment_count": 88,
+    "angle_support": 139169552.48822683,
+    "angle_clusters_deg": [
+      179.9950199235664,
+      90.02590839561603
+    ],
+    "offset_cluster_tolerance_px": 28.0,
+    "min_cluster_support": 135.0,
+    "min_spacing_px": 90.0,
+    "u_line_count": 5,
+    "v_line_count": 5,
+    "seam_segment_count": 91,
+    "u_lines_px": [
+      -1990.5972291296555,
+      -1681.5363380195151,
+      -1125.0391540101673,
+      -561.0260092588729,
+      -0.0
+    ],
+    "v_lines_px": [
+      -1985.6966959424299,
+      -1431.4031795206877,
+      -871.1443539819222,
+      -317.9962478552538,
+      -10.115532702991205
+    ]
+  }
+}

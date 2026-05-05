@@ -1,0 +1,55 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Packaging / install
+build/
+dist/
+*.egg
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+share/python-wheels/
+
+# Test & type tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+
+# Ultralytics / SAM local app dirs (not application source)
+Ultralytics/
+
+# Optional large weights at repo root (use HF hub cache or `hf download`)
+/sam3.pt
+
+# PyTorch checkpoints (typically downloaded)
+*.pth
+
+# Logs
+*.log
+
+# --- Kept in git on purpose ---
+# samples/, outputs/, and image files (*.png, *.jpg, …) are not listed here.

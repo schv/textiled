@@ -1,0 +1,15 @@
+{
+  "mask_count": 1,
+  "kept_mask_count": 0,
+  "rejected_mask_count": 1,
+  "boundary_line_count": 0,
+  "sam_border_grid_debug": {
+    "reason": "not_enough_sam_border_segments"
+  },
+  "grid_model_path": "herringbone_grid_model.json",
+  "grid_fit_strategy": "sam_border_grid",
+  "grid_fit_status": "failed",
+  "grid_fit_debug": {
+    "reason": "not_enough_sam_border_segments"
+  }
+}
