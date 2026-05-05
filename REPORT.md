@@ -25,7 +25,7 @@ I chose the plank extraction route - mainly based on its straightforwardness, bu
 
 However, this approach deviates from the goal of having a single tile that would be repeated many times in each direction, since in general we cannot assemble a square from planks when there is a shift in each next row/column.
 
-The solution is only capable of extracting planks (specifically for `[samples/dark.png](samples/dark.png)`) and is very sensitive to the configuration parameter values. I couldn't make it work with `[samples/herringbone.png](samples/herringbone.png)` yet.
+The solution is only capable of extracting planks (specifically for [`samples/dark.png`](samples/dark.png)) and is very sensitive to the configuration parameter values. I couldn't make it work with [`samples/herringbone.png`](samples/herringbone.png) yet.
 
 
 #### Result
