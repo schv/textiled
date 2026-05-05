@@ -36,9 +36,11 @@ Example run on [`samples/dark.png`](samples/dark.png), artifacts in [`result_exa
 |:-:|:-:|:-:|:-:|
 | ![dark input](result_example/dark.png) | ![dark boundary ridge](result_example/dark_boundary_ridge.png) | ![dark grid residuals](result_example/dark_grid_residuals.png) | ![dark plank rectangles](result_example/dark_plank_rectangles.png) |
 
-### The pipeline
+### Pipeline
 
 Preprocessing → SAM3 segmentation → grid construction → plank extraction  
+
+I went for segmentation with a neural network because I couldn't make progress with just opencv - the plank texture is getting in the way and I either get a grid mixed up with texture, or nothing useful at all with only texture or noise being highlighted.
 
 The path forward is:
 1. Keeping only planks that all match in one dimension
